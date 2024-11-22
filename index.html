@@ -258,9 +258,13 @@ Play</a></div>
  <div class="player-overlay-name">Shady Bears Unblocked</div>
                             </div>
                         <div class="game_body">
-                            <div class="game-offer__window__frame">
-                                                          <iframe src="https://s.gameszur.com/gamehub/shady-bears" rel="nofollow noreferrer noopener" style="position:absolute; left:0px; top:0px; width:100%; height:100%;" border="0" scrolling="no" frameborder="0"></iframe>                                                          </div>
-                            <style>@keyframes pluto-gradient {
+                      <div class="game-offer__window__frame" style="display: block;">
+                                    <iframe src="https://s.gameszur.com/gamehub/shady-bears/" rel="nofollow noreferrer noopener" style="position:absolute; left:0px; top:0px; width:100%; height:100%;" border="0" scrolling="no" frameborder="0"></iframe>                                    <iframe src="https://s.gameszur.com/gamehub/shady-bears/" rel="nofollow noreferrer noopener" style="position:absolute; left:0px; top:0px; width:100%; height:100%;" border="0" scrolling="no" frameborder="0"></iframe></div>
+            
+            
+            
+            <style>
+@keyframes pluto-gradient {
  0% {
  background-position: 0 50%
  }
@@ -294,8 +298,8 @@ width: 100%;
     animation: pluto-gradient 60s ease 0s infinite normal none running;
     color: #f2f2f2;
     font-size: 25px;
-    min-height:650px;
-     margin: 14px 0px 0;
+    min-height:550px;
+     margin: 14px 14px 0;
          position: relative;
      }
      
@@ -324,15 +328,24 @@ width: 100%;
   .player-overlay {
     min-height:450px;
   }
-}</style>
-<script>$('#js-player-start').click(function(e) {
+}
+    
+</style>
+<script>
+
+    $('#js-player-start').click(function(e) {
        e.preventDefault();
          $('.player-overlay').css("display","none");
          $('.game-offer__window__frame').css("display","block");
          $('.game-offer__window__bottom').css("display","flex");
          $('.game-offer__window__frame').append($(this).data('code'));
 
-    });</script>
+    });
+
+</script>
+            
+            
+     
                             <div class="game-offer__window__bottom">
                                                                 <div class="comments">
                                     <a href="#review"><img src="/wp-content/themes/mortalkombat/img/message.svg"> Review</a>
