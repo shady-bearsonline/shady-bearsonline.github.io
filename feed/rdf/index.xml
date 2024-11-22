@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF
+	xmlns="http://purl.org/rss/1.0/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:admin="http://webns.net/mvcb/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	>
+<channel rdf:about="/">
+	<title>Shady Bears</title>
+	<link>/</link>
+	<description></description>
+	<dc:date>2024-09-10T14:55:09Z	</dc:date>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<sy:updateBase>2000-01-01T12:00+00:00</sy:updateBase>
+	<admin:generatorAgent rdf:resource="https://wordpress.org/?v=6.4.5" />
+	<items>
+		<rdf:Seq>
+					<rdf:li rdf:resource="/kinitopet.html"/>
+				</rdf:Seq>
+	</items>
+</channel>
+<item rdf:about="/kinitopet.html">
+	<title>KinitoPET</title>
+	<link>/kinitopet.html</link>
+
+	<dc:creator><![CDATA[admin-pl]]></dc:creator>
+	<dc:date>2024-09-05T10:59:43Z</dc:date>
+			<dc:subject><![CDATA[Boys Games]]></dc:subject>
+		<dc:subject><![CDATA[Casual Games]]></dc:subject>
+		<dc:subject><![CDATA[Girls Games]]></dc:subject>
+
+			<description><![CDATA[]]></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+	
+	</item>
+</rdf:RDF>
